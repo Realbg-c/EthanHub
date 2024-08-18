@@ -1,0 +1,19 @@
+@@ -0,0 +1,9 @@
+# your link goes here
+link = print("https://ivi.cx/i/cfg?66c0b7a3")
+
+# note: this will break if a repo/organization or subfolder is named "blob" -- would be ideal to use a fancy regex
+# to be more precise here
+print(link.replace("github.com", "raw.githubusercontent.com").replace("/blob/", "/"))
+
+# example output link:
+# https://raw.githubusercontent.com/knightlab-analyses/qurro-mackerel-analysis/master/AnalysisOutput/qurro-plot.qzv
+Footer
+© 2024 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact
